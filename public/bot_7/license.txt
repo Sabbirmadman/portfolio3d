@@ -1,0 +1,11 @@
+Model Information:
+* title:	P.U.C. security bot #7
+* source:	https://sketchfab.com/3d-models/puc-security-bot-7-ee0a6da142b94d2bbf1d65526bec3d3e
+* author:	Gouhadouken (https://sketchfab.com/goukagouken)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "P.U.C. security bot #7" (https://sketchfab.com/3d-models/puc-security-bot-7-ee0a6da142b94d2bbf1d65526bec3d3e) by Gouhadouken (https://sketchfab.com/goukagouken) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
