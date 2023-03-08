@@ -28,7 +28,11 @@ const Hero = () => {
                     </p>
                 </div>
             </div>
-            <ComputersCanvas />
+            <div
+                className={`${styles.paddingX} absolute inset-0 top-[140px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
+            >
+                <ComputersCanvas />
+            </div>
         </section>
     );
 };

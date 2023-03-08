@@ -1,9 +1,11 @@
-import React from 'react'
+import { Html } from "@react-three/drei";
 
 const Loader = () => {
-  return (
-    <div>Loader</div>
-  )
-}
+    return (
+        <Html center>
+            <span className="canvas-load">Loading...</span>
+        </Html>
+    );
+};
 
-export default Loader
+export default Loader;
