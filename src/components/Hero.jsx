@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import { ComputersCanvas, MacView } from "./canvas";
 
 const Hero = () => {
     return (
@@ -31,7 +31,8 @@ const Hero = () => {
             <div
                 className={`${styles.paddingX} absolute inset-0 top-[140px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
             >
-                <ComputersCanvas />
+                {/* <ComputersCanvas /> */}
+                <MacView />
             </div>
         </section>
     );
