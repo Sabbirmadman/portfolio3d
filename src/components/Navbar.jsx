@@ -28,9 +28,9 @@ const Navbar = () => {
                         className="w-10 h-10 object-contain"
                     />
                     <p className="text-white text-[18px]] font-bold cursor-pointer flex">
-                        Sabbir Ahmed &nbsp;
+                        Prolefic Tech &nbsp;
                         <span className="sm:block hidden">
-                            |&nbsp;Developer
+                            |&nbsp; Software Development Company
                         </span>
                     </p>
                 </Link>

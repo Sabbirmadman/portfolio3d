@@ -117,6 +117,7 @@ export default function MacView() {
                     left: "50%",
                     transform: "translate3d(-50%,-50%,0)",
                     fontSize: "4rem",
+                    textAlign: "center",
                     color: "white",
                     opacity: props.open.to([0, 1], [1, 0]),
                     transform: props.open.to(
@@ -124,7 +125,7 @@ export default function MacView() {
                     ),
                 }}
             >
-                <span>You are amazing!</span>
+                <span>Looking For Something?</span>
             </web.h1>
             <Canvas camera={{ position: [0, 0, -30], fov: 35 }}>
                 <three.pointLight

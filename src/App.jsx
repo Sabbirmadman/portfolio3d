@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import {
     Hero,
     Navbar,
@@ -13,31 +13,21 @@ import {
     ComputersCanvas,
     StarsCanvas,
 } from "./components";
+import HomePage from "./screens/HomePage";
 
 function App() {
     return (
-        <Router>
-            <div className="relative z-0 bg-primary">
-                <div
-                    className="bg-hero-pattern
-                
-                
-                bg-cover bg-no-repeat bg-center"
-                >
-                    <Navbar />
-                    <Hero />
-                </div>
-                <About />
-                <Experience />
-                <Tech />
-                <Works />
-                <Feedbacks />
-                <div className="relative z-0">
-                    <Contact />
-                    <StarsCanvas />
-                </div>
-            </div>
-        </Router>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/tech" element={<Tech />} />
+                <Route path="/experience" element={<Experience />} />
+                <Route path="/works" element={<Works />} />
+                <Route path="/feedbacks" element={<Feedbacks />} />
+                <Route path="/contact" element={<Contact />} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 
