@@ -8,16 +8,13 @@ import {
     Works,
     Feedbacks,
     Contact,
-    EarthCanvas,
-    BallCanvas,
-    ComputersCanvas,
-    StarsCanvas,
 } from "./components";
-import HomePage from "./screens/HomePage";
+import HomePage from "./screens/Home/HomePage";
 
 function App() {
     return (
         <BrowserRouter>
+            <Navbar />
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/about" element={<About />} />

@@ -30,6 +30,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import react_native from "./tech/react_native.png";
+import django from "./tech/django.png";
+import aws from "./tech/aws.png";
+
 export {
     logo,
     backend,
@@ -59,4 +63,7 @@ export {
     carrent,
     jobit,
     tripguide,
+    react_native,
+    django,
+    aws,
 };
